@@ -1,0 +1,160 @@
+Creando etiqueta con Emmet
+
+
+<!-- etiqueta -->
+<etiqueta>
+
+</etiqueta>
+
+
+<!-- etiqueta#identidad.clase1.clase2 -->
+<etiqueta id="identidad" class="clase1 clase2">
+
+</etiqueta>
+
+<!-- etiqueta[atributo1=un-valor][atributo2=otro-valor] -->
+<etiqueta atributo1="un-valor" atributo2="otro-valor">
+
+</etiqueta>
+
+
+
+<!-- ul>li -->
+<ul>
+   <li></li>
+</ul>
+
+
+
+<!-- ul>li>a -->
+<ul>
+   <li>
+      <a href="">
+
+      </a>
+   </li>
+</ul>
+
+
+<!-- a{Contenido} -->
+<a href="">
+   Contenido
+</a>
+
+<!--
+Dos posibilidades equivalentes:
+El atributo más común se evalúa automáticamente
+-->
+
+<!-- a[href=http://google.com]{Enlace a Google} -->
+<!-- a[http://google.com]{Enlace a Google} -->
+<a href="http://google.com">Enlace a Google</a>
+
+
+
+<!-- ul>li*5 -->
+<ul>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul>
+
+
+<!-- header>nav>ul>(li>a[#]{Menú $})*4 -->
+<header>
+   <nav>
+      <ul>
+         <li><a href="#">Menú 1</a></li>
+         <li><a href="#">Menú 2</a></li>
+         <li><a href="#">Menú 3</a></li>
+         <li><a href="#">Menú 4</a></li>
+      </ul>
+   </nav>
+</header>
+
+
+
+
+
+
+
+
+
+<!-- html>(head>title{Titulo}+meta[charset=utf-8])+body{Hola Mundo} -->
+<html>
+<head>
+   <title>Titulo</title>
+   <meta charset="utf-8">
+</head>
+<body>
+   Hola Mundo
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- lorem10 -->
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, eos?
+
+
+
+
+
+<!-- article#entrada_157.entrada.columnas-3 -->
+<article id="entrada_157" class="entrada columnas-3">
+
+   <!-- header>.titulo{Título de la Entrada}+.fecha{17 de marzo, 2016}+.autor>span{Autor: }+a[#]{Juán Pérez} -->
+   <header>
+      <div class="titulo">Título de la Entrada</div>
+      <div class="fecha"> de marzo, 2016</div>
+      <div class="autor"><span>Autor: </span><a href="#">Juán Pérez</a></div>
+   </header>
+
+   <!-- section.contenido>(p{lorem20}+img[http://fakeimg.pl/300x300])*3 -->
+   <section class="contenido">
+      <p>lorem20</p>
+      <img src="http://fakeimg.pl/300x300" alt="">
+      <p>lorem20</p>
+      <img src="http://fakeimg.pl/300x300" alt="">
+      <p>lorem20</p>
+      <img src="http://fakeimg.pl/300x300" alt="">
+   </section>
+
+
+   <!-- footer>(.categorias>span{Publicado en:}+(a[#]{Categoría $}+span{, })*4)+(.compartir>h1{Compartir:}+a[#]{Facebook}+a[#]{Twitter}) -->
+   <footer>
+      <div class="categorias">
+         <span>Publicado en:</span>
+         <a href="#">Categoría 1</a>
+         <span>, </span>
+         <a href="#">Categoría 2</a>
+         <span>, </span>
+         <a href="#">Categoría 3</a>
+         <span>, </span>
+         <a href="#">Categoría 4</a>
+         <span>, </span>
+      </div>
+      <div class="compartir">
+         <h1>Compartir:</h1>
+         <a href="#">Facebook</a>
+         <a href="#">Twitter</a>
+      </div>
+   </footer>
+
+
+
+</article>
+
+
+
+
+
+
+
+.

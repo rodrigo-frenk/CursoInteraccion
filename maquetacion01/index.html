@@ -20,54 +20,161 @@
   </head>
   <body>
 
-      <!-- header#cabecera.row -->
-      <header id="cabecera" class="row">
-         <!-- #logotipo.small-4.columns>a>img[src=http://fakeimg.pl/200x100] -->
-         <div id="logotipo" class="small-4 columns">
-            <a href="">
-               <img src="http://fakeimg.pl/200x100" alt="">
-            </a>
-         </div>
-
-         <!-- #icono-menu.small-4.small-offset-4.columns.show-for-small-only.text-right>span.fa.fa-bars -->
-         <div id="icono-menu" class="small-4 small-offset-4 columns show-for-small-only text-right">
-            <span class="fa fa-bars"></span>
-         </div>
-         https://github.com/rodrigo-frenk/CursoInteraccion
-         <!-- nav#menu.medium-6.columns.hide-for-small-only>
-         (#elemento-menu-$.elemento-menu.medium-3.columns>a[#]{Menú $})*4 -->
-         <nav id="menu" class="medium-6 columns hide-for-small-only">
-            <div id="elemento-menu-1" class="elemento-menu medium-3 columns">
-               <a href="#">
-                  Menú 1
-               </a>
-            </div>
-            <div id="elemento-menu-2" class="elemento-menu medium-3 columns">
-               <a href="#">
-                  Menú 2
-               </a>
-            </div>
-            <div id="elemento-menu-3" class="elemento-menu medium-3 columns">
-               <a href="#">
-                  Menú 3
-               </a>
-            </div>
-            <div id="elemento-menu-4" class="elemento-menu medium-3 columns">
-               <a href="#">
-                  Menú 4
-               </a>
-            </div>
-         </nav>
+      <!-- #contenedor.row.h_100vh -->
+      <div id="contenedor" class="row h_100vh">
 
 
+               <!-- header#cabecera.row -->
+               <header id="cabecera" class="row">
+                  <!-- #logotipo.small-4.columns>a>img[src=http://fakeimg.pl/200x100] -->
+                  <div id="logotipo" class="small-4 columns">
+                     <a href="">
+                        <img src="http://fakeimg.pl/200x100" alt="">
+                     </a>
+                  </div>
+
+                  <!-- #icono-menu.small-4.small-offset-4.columns.show-for-small-only.text-right>span.fa.fa-bars -->
+                  <div id="icono-menu" class="small-4 small-offset-4 columns show-for-small-only text-right">
+                     <span class="fa fa-bars"></span>
+                  </div>
+
+                  <!-- nav#menu.medium-6.columns.hide-for-small-only>ul>(li#elemento-menu-$.elemento-menu.medium-3.columns>a[#]{Menú $})*4 -->
+                  <nav id="menu" class="medium-6 columns hide-for-small-only">
+                     <ul>
+                        <li id="elemento-menu-1" class="elemento-menu medium-3 columns"><a href="#">Menú 1</a></li>
+                        <li id="elemento-menu-2" class="elemento-menu medium-3 columns"><a href="#">Menú 2</a></li>
+                        <li id="elemento-menu-3" class="elemento-menu medium-3 columns"><a href="#">Menú 3</a></li>
+                        <li id="elemento-menu-4" class="elemento-menu medium-3 columns"><a href="#">Menú 4</a></li>
+                     </ul>
+                  </nav>
 
 
-      </header>
+               </header>
 
+
+               <!-- main#contenedor_principal.row.h_75 -->
+               <main id="contenedor_principal" class="row h_75 rel">
+
+                  <!-- section#portada.row.h_100 -->
+                  <section id="portada" class="row h_100">
+
+                     <!-- #imagen_fondo.row.h_100.abs.imgLiquid.imgLiquidFill -->
+                     <div id="imagen_fondo" class="w_100vw h_100 abs imgLiquid imgLiquidFill">
+                        <!-- img[http://loremflickr.com/1280/600/streetart] -->
+                        <img src="http://loremflickr.com/680/600/streetart" alt="">
+                     </div>
+
+                     <!-- #titulo_blog.w_100vw.text-center.abs -->
+                     <div id="titulo_blog" class="w_100vw text-center abs">
+                        <h1>Blog</h1>
+                     </div>
+
+                  </section>
+
+                  <!-- (section#seccion_$.row.h_100>h1{Sección $})*3 -->
+                  <section id="seccion_1" class="row h_100">
+
+
+                     <!-- .small-12.medium-6.medium-centered.columns -->
+                     <div class="small-12 medium-6 medium-centered columns">
+                        <h1>Sección 1</h1>
+                        <!-- p>lorem25 -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe doloribus quisquam, magnam blanditiis, aperiam dignissimos ipsum tempore placeat sapiente perferendis optio, distinctio eos quaerat, nesciunt!</p>
+                     </div>
+                  </section>
+
+
+                  <section id="seccion_2" class="row h_100">
+                     <h1>Sección 2</h1>
+
+                     <!-- aside.medium-3.columns.h_100 -->
+                     <aside class="medium-3 columns h_100">
+                        <h3>Etiquetas</h3>
+                        <!-- ul>(li>a[#]{Etiqueta $})*15 -->
+                        <ul>
+                           <li><a href="#">Etiqueta 1</a></li>
+                           <li><a href="#">Etiqueta 2</a></li>
+                           <li><a href="#">Etiqueta 3</a></li>
+                           <li><a href="#">Etiqueta 4</a></li>
+                           <li><a href="#">Etiqueta 5</a></li>
+                           <li><a href="#">Etiqueta 6</a></li>
+                           <li><a href="#">Etiqueta 7</a></li>
+                           <li><a href="#">Etiqueta 8</a></li>
+                           <li><a href="#">Etiqueta 9</a></li>
+                           <li><a href="#">Etiqueta 10</a></li>
+                           <li><a href="#">Etiqueta 11</a></li>
+                           <li><a href="#">Etiqueta 12</a></li>
+                           <li><a href="#">Etiqueta 13</a></li>
+                           <li><a href="#">Etiqueta 14</a></li>
+                           <li><a href="#">Etiqueta 15</a></li>
+                        </ul>
+
+                     </aside>
+
+
+                     <!-- #reticula.medium-9.columns.h_100 -->
+                     <div id="reticula" class="medium-9 columns h_100">
+                        <!-- (.elemento.medium-4.columns>img[http://fakeimg.pl/300x300])*6 -->
+                        <div class="elemento medium-4 columns">
+                           <div class="titulo row">Titulo</div>
+                           <img src="http://fakeimg.pl/300x200" alt="">
+                        </div>
+                        <div class="elemento medium-4 columns">
+                           <div class="titulo row">Titulo</div>
+                           <img src="http://fakeimg.pl/300x200" alt="">
+                        </div>
+                        <div class="elemento medium-4 columns">
+                           <div class="titulo row">Titulo</div>
+                           <img src="http://fakeimg.pl/300x200" alt="">
+                        </div>
+                        <div class="elemento medium-4 columns">
+                           <div class="titulo row">Titulo</div>
+                           <img src="http://fakeimg.pl/300x200" alt="">
+                        </div>
+                        <div class="elemento medium-4 columns">
+                           <div class="titulo row">Titulo</div>
+                           <img src="http://fakeimg.pl/300x200" alt="">
+                        </div>
+                        <div class="elemento medium-4 columns">
+                           <div class="titulo row">Titulo</div>
+                           <img src="http://fakeimg.pl/300x200" alt="">
+                        </div>
+                     </div>
+
+                  </section>
+
+
+                  <section id="seccion_3" class="row h_100">
+                     <h1>Sección 3</h1>
+                  </section>
+
+
+
+
+
+               </main>
+
+
+               <!-- footer#pie_pagina.row.h_10 -->
+               <footer id="pie_pagina" class="row h_10">
+                  Pie de Página
+               </footer>
+
+
+
+      </div>
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
+
+   <script src="js/vendor/imgLiquid-master/js/imgLiquid-min.js"></script>
+
     <script src="js/app.js"></script>
+
+
+
+
+
   </body>
 </html>

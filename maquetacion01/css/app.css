@@ -1,0 +1,67 @@
+
+.row {
+   max-width: 100%;
+   margin-left: 0 !important;
+   margin-right: 0 !important;
+}
+
+li {
+   list-style: none;
+}
+
+
+.h_100vh {
+   height: 100vh;
+}
+
+.w_100vw {
+   width: 100vw;
+}
+
+.h_10 {
+   height: 10%;
+}
+
+.h_15 {
+   height: 15%;
+}
+
+.h_75 {
+   height: 75%;
+}
+
+.h_100 {
+   height: 100%;
+}
+
+.abs {
+   /* posa */
+   position: absolute;
+}
+.rel {
+   /*posr*/
+   position: relative;
+}
+
+
+
+
+
+
+
+#titulo_blog {
+   /*fz50px*/
+   font-size: 50px !important;
+   color: white;
+   /*h30%*/
+   height: 30%;
+   top: 35%;
+
+
+}
+
+
+main#contenedor_principal {
+   /*ovya*/
+   overflow-y: auto;
+}
