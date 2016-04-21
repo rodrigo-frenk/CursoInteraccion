@@ -1,0 +1,172 @@
+* {
+   outline: 1px solid #acf;
+}
+
+/*
+selector {
+
+   propiedad-1: valor;
+   propiedad-2: valor;
+
+}
+*/
+
+/*
+1: selector por etiqueta:
+
+header
+li
+a
+h1
+*/
+
+
+/* 2. selector por clase ( .clase ) */
+
+/* 3. selector por identidad */
+
+
+/*
+div {
+   background-color: red;
+}
+
+.caja {
+   background-color: blue;
+}
+
+#caja_1 {
+   background-color: green;
+}
+
+
+.caja > h1 {
+   font-size: 80px;
+}
+
+
+.caja h1 {
+   font-family: Courier;
+}
+
+.caja:first-child {
+   outline:30px solid purple;
+}
+
+
+.caja:nth-child(3) {
+   outline:30px solid orange;
+}
+
+.caja:hover {
+   background-color: #fff;
+}
+
+.caja:hover h1 {
+   color: yellow;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   color: green;
+}
+
+*/
+
+
+
+
+
+
+
+.p0 {
+   /*p0px*/
+   padding: 0px;
+}
+
+.p1 {
+   /*p20px*/
+   padding: 20px;
+}
+
+.p2 {
+   /*p40px*/
+   padding: 40px;
+}
+
+.p3 {
+   /*p60px*/
+   padding: 60px;
+}
+
+
+
+.black {
+   color: #000;
+}
+
+.white {
+   color: #fff;
+}
+
+.black_bg {
+   background-color: #000;
+}
+
+.white_bg {
+   background-color: #fff;
+}
+
+
+
+.caja {
+   transition: all 2s ease-in-out;
+
+   /*bgc*/
+   background-color: #fff;
+}
+
+
+.caja:hover .imagen {
+   filter: brightness(80%) contrast(140%) blur(3px);
+   -webkit-filter: brightness(80%) contrast(140%) blur(3px);
+   -moz-filter: brightness(80%) contrast(140%) blur(3px);
+}
+
+
+
+
+
+
+
+
+/*
+.caja:hover {
+   background-color: red;
+   font-size: 30px;
+   opacity: 0.3;
+   transform: scale(1.05);
+   transform: rotateY(90deg);
+}*/
+
+body {
+   background-color: purple;
+}
+
+
+
+.h_50vh {
+   /* h50vh */
+   height: 50vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**/

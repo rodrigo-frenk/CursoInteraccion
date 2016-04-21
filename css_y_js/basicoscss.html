@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS y JS</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/layout_utils.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+   <!-- .caja.row.h_50vh>h1{Título 1}+.otra_caja.row>h1{Título 2} -->
+   <div class="caja row h_50vh p1 black_bg white">
+      <h1>Título 1</h1>
+
+      <!-- p>lorem20 -->
+      <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nulla magnam sed nobis deserunt, sint mollitia totam in rem accusamus!</p>
+
+      <!-- .imagen.row>img[http://loremflickr.com/400/300/forest] -->
+      <div class="imagen row"><img src="img/img.jpg" alt=""></div>
+
+
+      <div class="otra_caja row p2 white_bg black">
+         <h1>Título 2</h1>
+      </div>
+   </div>
+
+
+   <!-- #caja_$.caja.small-6.columns.h_50vh*4 -->
+
+   <div id="caja_1" class="caja small-6 columns h_50vh"></div>
+   <div id="caja_2" class="caja small-6 columns h_50vh"></div>
+   <div id="caja_3" class="caja small-6 columns h_50vh"></div>
+   <div id="caja_4" class="small-6 columns h_50vh"></div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
